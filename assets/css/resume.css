@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Left Container */
+
+.container{
+    display: flex;
+    position: relative;
+}
+.left_container{
+    width: 25%;
+    height: 100vh;
+    /* position: relative; */
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    border-right: 8px solid rgb(90, 86, 86);
+    
+}
+.left_container img{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;  
+}
+.left_container .text{
+    margin-top: 20px;
+}
+.left_container .navbar{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    margin-top: 40px;
+}
+.left_container .navbar ul {
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.left_container .navbar ul li{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    list-style: none;  
+}
+.left_container .navbar ul li:hover{
+    border-right: 5px solid yellow;
+    background-color: rgb(238, 231, 231);
+   
+}
+.left_container .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+}
+
+/* Righ Container */
+.right_container{
+    
+    width: 74.5%;
+    height: 100vh;  
+    position: relative;
+    margin-left: 25.5%;
+
+}
+
+.sub_container{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+
+}
+.sub_container .about_me{
+    background: rgb(226, 226, 21);
+     width: 300px;
+}
+.sub_container .about_me h1{
+    padding: 10px 0 10px 150px;
+    color: aliceblue;
+}
+.sub_container .note{
+    padding: 30px 10px 10px 10px;
+}
+
+.something .developer p{
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.something .testimonails{
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+}
+.something .testimonails h2{
+    border-bottom: 2px solid yellow;
+    width: 120px;
+}
+
+
+/* Block of Resume */
+.sub_container5{
+    width: 100%; 
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub_container5 h1{
+    border-bottom: 3px solid rgb(219, 219, 35);
+    width: 150px;
+}
+.detail h3{
+    width: 100px;
+    background-color: rgb(9, 212, 60);
+    padding: 10px 10px 10px 50px;
+    color: aliceblue;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+}
+.data{
+    margin-left: 30px;
+}
+.data span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+#month{
+    width: 250px;
+}
+.data h5{
+    font-size: 1.2rem;
+    opacity: 0.2;
+}
+.data p{
+    margin-top: 10px;
+}
+.data button{
+    border: 3px solid rgb(204, 204, 23);
+    color: rgb(219, 219, 14);
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.skill{
+    width: 95%;
+}
+
+.detail .block1{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+
+.detail .block1 p{
+   width: 92%;
+   height: 10px;
+   background-color: rgb(248, 195, 23);
+   margin: 2px;
+   border-radius: 6px;
+}
+.detail .block2{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block2 p{
+    width: 80%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+.detail .block3{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block3 p{
+    width: 70%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+ .detail .block4{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+
+.detail .block4 p{
+   width: 95%;
+   height: 10px;
+   background-color: rgb(248, 195, 23);
+   margin: 2px;
+   border-radius: 6px;
+}
+.detail .block5{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block5 p{
+    width: 85%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+.detail .block6{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block6 p{
+    width: 75%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+ .detail .block7{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block7 p{
+    width: 55%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+.detail .block8{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 10);
+    border-radius: 10px;
+    
+}
+.detail .block8 p{
+    width: 70%;
+    height: 10px;
+    background-color: rgb(248, 195, 23);
+    margin: 2px;
+    border-radius: 6px;
+ }
+
+#web{
+    margin-top: 20px;
+}
+.detail h4{
+    margin-top: 20px;
+}
